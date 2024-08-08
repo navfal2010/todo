@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.wrapper {
+    padding: 30px 20px;
+    border: 1px dashed green;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.inp {
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid green;
+    outline: none;
+    padding-left: 10px;
+    color: green;
+}
+
+.btn-add {
+    width: 50px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
